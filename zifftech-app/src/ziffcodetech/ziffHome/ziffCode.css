@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #120f0f;
+    /* background-color: #120f0f; */
 }
 
 .NavbarBackgroundColor{
@@ -80,17 +80,25 @@ height: 100%;
 }
 
 .codingToday{
-    width: 50%;
-    margin: auto;
-    margin-top: -15%;
-    z-index: -1;    
-    height: 40vh;
+    width: 65%;
+    height: 50vh;
+   top: 100%;
+   left: 50%;
+   border-radius: 16px;
+   box-shadow: inset -9px 8px 15px rgba(0,0,0,.8);
+   display: flex;
+   align-items: center;
+   justify-content: center;
     background-color: rgb(18, 47, 98);
     color: goldenrod;
-    /* border: 2px solid red; */
-    padding: 5%;
+    transform: translate(-50%,-50%)
+    
 }
 
 .classroomImages{
     width: 100%;
+}
+
+.ourFocusComponentMargin{
+    margin-top: 9rem;
 }

@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.firstAnimation{
+  animation: firstAnime 4s linear;
+  animation-range:entry 0% cover 40%;
+  animation-timeline:view();
+}
+
+@keyframes firstAnime {
+  from{
+    opacity: 0;
+    scale: 0.5;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
+  }
+}

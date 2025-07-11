@@ -23,8 +23,8 @@ const FooterComp = () => {
                     <div class="col">
                         <h5 >Office Hours</h5>
                         <p className="border-bottom border-primary mt-2"></p>
-                        <p>Working days: Mon – Fri, 8AM – 4PM</p>
-                        <p>Sat & Sun (Closed)</p>
+                        <p>Working days: Mon – Fri, 9AM – 6PM</p>
+                        <p>Sat, 10AM - 5PM</p>
                     </div>
                     <div class="col">
                         <p>Our Services</p>
